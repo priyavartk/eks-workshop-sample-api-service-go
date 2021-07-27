@@ -1,4 +1,4 @@
-# This is a multi-stage build. First we are going to compile and then
+# Demo PipeLine This is a multi-stage build. First we are going to compile and then
 # create a small image for runtime.
 FROM golang:1.11.1 as builder
 
